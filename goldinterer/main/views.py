@@ -21,7 +21,7 @@ def indexHandler(request):
     # partners = Partner.objects.all()
 
     if request.method == 'POST':
-        BOT_TOKEN = "6229480873:AAH4-YF9xLEkpJRQiXAzFDadMG4o0KSVkEc"
+        BOT_TOKEN = "6888390474:AAE2OQa2E9Unu_vvOf4ZKnwJC0RXIU_GsQE"
         TELEGRAM_CHAT_ID = "604469732"
         name = request.POST.get('name')
         phone = request.POST.get('phone')
