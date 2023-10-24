@@ -33,7 +33,7 @@ ALLOWED_HOSTS = ['www.gold-interer.kz','gold-interer.kz']
 # Application definition
 
 INSTALLED_APPS = [
-    'admin_interface',
+    # 'admin_interface',
     'colorfield',
     'django.contrib.admin',
     'django.contrib.auth',
